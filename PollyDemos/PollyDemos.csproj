@@ -82,6 +82,7 @@
     <Compile Include="Sync\Demo07_WaitAndRetryNestingCircuitBreakerUsingPolicyWrap.cs" />
     <Compile Include="Sync\Demo08_Wrap-Fallback-WaitAndRetry-CircuitBreaker.cs" />
     <Compile Include="Sync\Demo09_Wrap-Fallback-Timeout-WaitAndRetry.cs" />
+    <Compile Include="Sync\Demo10_Wrap-Timeout.cs" />
     <Compile Include="Sync\SyncDemo.cs" />
   </ItemGroup>
   <ItemGroup>
