@@ -42,6 +42,7 @@
             <ComboBoxItem Name="Demo08_Wrap_Fallback_WaitAndRetry_CircuitBreaker">Sync Demo 08: Fallback, WaitAndRetry, and CircuitBreaker in a PolicyWrap</ComboBoxItem>
             <ComboBoxItem Name="Demo09_Wrap_Fallback_Timeout_WaitAndRetry">Sync Demo 09: Fallback, Timeout and WaitAndRetry, in a PolicyWrap</ComboBoxItem>
             <ComboBoxItem Name="Demo10_Wrap_Timeout">Sync Demo 10: Wrap timeout</ComboBoxItem>
+            <ComboBoxItem Name="Demo11_Wrap_Timeout_WithTiming">Sync Demo 11: Wrap timeout and warn timing</ComboBoxItem>
         </ComboBox>
 
         <Label Content="Description" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Width="135" Height="30"  FontSize="12" Padding="10,0,0,0" Margin="0,85,0,0" VerticalAlignment="Top" Foreground="#FFFFFF"/>

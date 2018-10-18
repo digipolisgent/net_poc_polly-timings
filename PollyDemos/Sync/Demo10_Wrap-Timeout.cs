@@ -42,7 +42,7 @@ namespace PollyDemos.Sync
                         progress.Report(ProgressWithMessage("Retry is starting.... Logging: " + exception.Message, Color.Yellow));
                     });
 
-            FallbackPolicy<String> fallbackForAnyException = Policy<String>
+            FallbackPolicy<string> fallbackForAnyException = Policy<string>
                 .Handle<Exception>()
                 .Fallback(
                     fallbackAction: () => "Please try again later [Fallback for any exception]",

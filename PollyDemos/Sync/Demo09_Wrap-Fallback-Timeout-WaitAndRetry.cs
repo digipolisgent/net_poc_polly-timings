@@ -132,7 +132,6 @@ namespace PollyDemos.Sync
                     internalCancel = TerminateDemosByKeyPress && Console.KeyAvailable;
                 }
             }
-
         }
 
         public override Statistic[] LatestStatistics => new[]
